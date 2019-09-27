@@ -18,6 +18,7 @@ public class PersonasController {
 		personas.add(new Persona("persona 1","uno@gmail.com",23));
 		personas.add(new Persona("persona 2","dos@gmail.com",45));
 		personas.add(new Persona("persona 3","tres@gmail.com",28));
+		personas.add(new Persona("persona 4","cuatro@gmail.com",38)); //c2
 		return personas;
 	}
 }
