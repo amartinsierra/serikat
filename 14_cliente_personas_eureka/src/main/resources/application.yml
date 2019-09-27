@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: cliente-personas   
+server:    
+  port: 8081
+eureka:        
+  client:
+    #No es necesario que la aplicación cliente se registre en Eureka
+    registerWithEureka: false
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+    

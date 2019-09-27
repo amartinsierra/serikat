@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: servicio-personas   
+  cloud:
+    config:
+      uri: http://localhost:8888  #where the config-service is running
+      fail-fast: true

@@ -1,0 +1,15 @@
+server:
+  port: 8888
+
+spring:
+  # Spring Cloud Config Server Repository
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/amartinsierra/spring-config
+
+  # Spring properties in case you use different profiles
+  profiles:
+    active: dev
+    
